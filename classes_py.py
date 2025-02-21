@@ -108,3 +108,9 @@ def selection_logic(model,fill,option):
         pass
 
     return value
+
+def check_pass(value):
+    if value>1:
+        return value
+    else:
+        raise Exception
